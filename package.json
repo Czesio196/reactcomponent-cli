@@ -1,6 +1,6 @@
 {
   "name": "new-react-component-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "CLI to creating react components",
   "main": "src/cli.js",
   "module": "src/cli.js",
