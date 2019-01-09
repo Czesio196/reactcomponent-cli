@@ -2,7 +2,8 @@
   "name": "newreactcomponent-cli",
   "version": "1.0.2",
   "description": "CLI to creating react components",
-  "main": "./src/cli.js",
+  "main": "src/cli.js",
+  "module": "src/cli.js",
   "keywords": [
     "react",
     "component",
@@ -15,7 +16,7 @@
   "author": "Paweł Walesic <czesiomucha96@gmail.com>",
   "license": "MIT",
   "bin": {
-    "new-react-component": "./src/cli.js"
+    "new-react-component": "src/cli.js"
   },
   "dependencies": {
     "filenamify": "^2.1.0",

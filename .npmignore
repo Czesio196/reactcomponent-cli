@@ -2,13 +2,10 @@
 .vscode
 coverage
 node_modules
-sharepoint
-src
 temp
 config
 typings
 assets
-dist
 docs
 scripts
 
