@@ -1,0 +1,16 @@
+{
+  "name": "reactcomponent-cli",
+  "version": "1.0.0",
+  "description": "Cli to creating react components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "cli"
+  ],
+  "author": "Paweł Walesic",
+  "license": "ISC"
+}
