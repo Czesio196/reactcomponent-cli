@@ -1,6 +1,6 @@
 {
   "name": "newreactcomponent-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "CLI to creating react components",
   "main": "src/cli.js",
   "module": "src/cli.js",
@@ -14,7 +14,7 @@
     "url": "https://github.com/Czesio196/reactcomponent-cli.git"
   },
   "scripts": {
-    "publish": "npm version patch && npm publish"
+    "upload": "npm version patch && npm publish"
   },
   "author": "Paweł Walesic <czesiomucha96@gmail.com>",
   "license": "MIT",
