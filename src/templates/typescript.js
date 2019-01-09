@@ -3,9 +3,9 @@ const { start, end } = replaceTags;
 const { componentName, props, state } = typescript;
 
 const component = `import * as React from 'react';
-import {${start}${props}${end}, ${start}${state}${end}} from 'react';
+import { I${start}${props}${end}, I${start}${state}${end} } from './I${start}${componentName}${end}';
 
-export class ${start}${componentName}${end} extends React.Component<${start}${props}${end}, ${start}${state}${end}> {
+export class ${start}${componentName}${end} extends React.Component<I${start}${props}${end}, I${start}${state}${end}> {
     public render(): JSX.Element {
         return null;
     }
