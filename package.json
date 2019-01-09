@@ -13,6 +13,9 @@
     "type": "git",
     "url": "https://github.com/Czesio196/reactcomponent-cli.git"
   },
+  "scripts": {
+    "publish": "npm version patch && npm publish"
+  },
   "author": "Paweł Walesic <czesiomucha96@gmail.com>",
   "license": "MIT",
   "bin": {
